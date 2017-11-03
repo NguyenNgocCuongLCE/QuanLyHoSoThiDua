@@ -28,6 +28,43 @@ namespace DataAccessLayer
 
         }
 
+        public void CreateDataByYear(long baseYear = 0)
+        {
+            long y = DateTime.Now.Year;
+            SQLiteCommand cm = new SQLiteCommand(DbAccess.DatabaseConnection);
+            cm.CommandType = CommandType.Text;
+            cm.CommandText = "SELECT COUNT(nam) FROM " + LocalTable.TableName + " WHERE nam =" + y;
+
+            DbAccess.OpenConnection();
+            long count = (long)cm.ExecuteScalar();
+            DbAccess.CloseConnection();
+
+            if (count > 0)
+            {
+                return;
+            }
+
+            var d = from DataRow x in LocalTable.Rows
+                    where (long)x["nam"] == baseYear orderby (long)x["id"]
+                    select x;
+
+            foreach (var item in d)
+            {
+                Obj_DanhHieu o = CreateObj(item);
+                o.Nam = y;
+                o.ID = GetNextID();
+                Insert(o);
+            }
+            
+        }
+
+        public void ResetDataOfYear(long year)
+        {
+            Delete("nam = " + year);
+            CreateDataByYear();
+
+        }
+
         public Obj_DanhHieu CreateObj(DataRow dataRow)
         {
             Obj_DanhHieu o = new Obj_DanhHieu();
