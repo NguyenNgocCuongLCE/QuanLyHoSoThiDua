@@ -16,6 +16,8 @@ namespace DataAccessLayer
         public CaNhan_DAL CaNhan { get; set; }
         public HoSoThiDua_DAL HoSoThiDua { get; set; }
 
+        //just add comment
+
         public DonVi_DAL(Database_DAL database_DAL, CaNhan_DAL caNhan_DAL = null, HoSoThiDua_DAL hoSoThiDua_DAL = null)
         {
             DbAccess = database_DAL;
