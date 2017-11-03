@@ -1,0 +1,16 @@
+﻿Sorry, there was a problem downloading some files from OneDrive. Please try again.
+
+BusinessLayer.csproj.CopyComplete - https://onedrive.live.com/?cid=27a6fe2599d1ee47&id=27A6FE2599D1EE47%2120117&action=Download
+
+BusinessLogicLayer.csproj.CopyComplete - https://onedrive.live.com/?cid=27a6fe2599d1ee47&id=27A6FE2599D1EE47%2120304&action=Download
+
+DataAccessLayer.csproj.CopyComplete - https://onedrive.live.com/?cid=27a6fe2599d1ee47&id=27A6FE2599D1EE47%2120122&action=Download
+
+DataObject.csproj.CopyComplete - https://onedrive.live.com/?cid=27a6fe2599d1ee47&id=27A6FE2599D1EE47%2120407&action=Download
+
+DataTransferObject.csproj.CopyComplete - https://onedrive.live.com/?cid=27a6fe2599d1ee47&id=27A6FE2599D1EE47%2120335&action=Download
+
+UI_ClassicForms.csproj.CopyComplete - https://onedrive.live.com/?cid=27a6fe2599d1ee47&id=27A6FE2599D1EE47%2120150&action=Download
+
+
+
