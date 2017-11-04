@@ -1,0 +1,37 @@
+118.69.192.84
+https://www.youtube.com/watch?v=newY_wx1eYA
+http://www.hdvietnam.com/threads/phieu-luu-1-link-how-to-train-your-dragon-2-2014-bi-kiep-luyen-rong-2-jay-baruchel-cate-bl.881647/
+http://www.hdvietnam.com/threads/how-to-train-your-dragon-2010-vie-720p-bluray-dts-x264-vav.664199/
+http://www.hdvietnam.com/threads/phieu-luu-planet-earth-ii-2016-1080p-bluray-dd5-1-x264-don-viethd-hanh-tinh-trai-dat-2.1283499/
+https://www.youtube.com/playlist?list=PLz-lbDdz6ew4X8PZ0grs47b5zQPP1orQA
+https://www.itsk.com/
+
+https://www.youtube.com/watch?v=j9XPRVA4GLo
+https://www.youtube.com/watch?v=3Yf1NOc9jQM
+https://www.youtube.com/watch?v=FzFkeDN5JxE
+https://www.youtube.com/watch?v=d-QWAChhpTA
+https://www.youtube.com/watch?v=g80oI5s0uwk
+
+<trustInfo xmlns = "urn:schemas-microsoft-com:asm.v2" >
+    < security >
+      < requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel level = "asInvoker" uiAccess="false" />
+        <requestedExecutionLevel level = "requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel level = "highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization.
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level = "requireAdministrator" uiAccess= "false" />
+      </ requestedPrivileges >
+    </ security >
+  </ trustInfo >
+
+Megu Fujiura
+
+00:43:11,780 -??-> 00:43:15,693
