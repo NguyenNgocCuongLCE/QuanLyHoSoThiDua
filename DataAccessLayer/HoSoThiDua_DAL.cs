@@ -12,6 +12,8 @@ namespace DataAccessLayer
         public Database_DAL DbAccess { get; set; }
         public DataTable LocalTable { get; set; }
 
+        //Just add comment
+
         public HoSoThiDua_DAL(Database_DAL database_DAL)
         {
             DbAccess = database_DAL;
